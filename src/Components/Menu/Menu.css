@@ -1,0 +1,138 @@
+/*a:hover{
+    opacity: 0.7;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+.mobile-menu{
+    position: absolute;
+    cursor: pointer;
+    display: none;
+    top: 4vh;
+    right: 4rem;
+}
+
+.mobile-menu div{
+    width: 32px;
+    height: 2px;
+    background: #444;
+    margin: 8px;
+}
+
+@media (max-width: 999px){
+    .nav-list{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 10rem;
+        height: 80vh;
+        background: rgb(179, 146, 113);
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        border: none;
+        margin-top: 12vh;
+        transform: translateX(0)
+    }
+    .nav-list li{
+        margin-left: 0;
+    }
+
+    .nav-list li a{
+        color: white;
+        text-decoration: none;
+    }
+
+    .mobile-menu{
+        display: block;
+    }
+}
+
+@media (max-width: 500px){
+    .nav-list{
+        width: 100%;
+        height: 80vh;
+        background: rgb(179, 146, 113);
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        border: none;
+        margin-top: 12vh;
+        border: solid;
+    }
+    .nav-list a{
+        background:tomato ;
+        width: 100%;
+        justify-items: center;
+        align-items: center;
+    }
+}
+*/
+
+.teste{
+    border: solid;
+}
+
+.button-container{
+    display: flex;
+    width: 20rem;
+    justify-content: space-between;
+}
+
+@media (max-width: 700px){
+    .button-container{
+        position: absolute;
+        justify-content: space-around;
+        height: 80vh;
+        width: 10rem;
+        top: 12vh;
+        right: 0;
+        background-color: rgb(179, 146, 113);
+        flex-direction: column;
+        transform: translateX(0);
+    }
+    .mobile-menu{
+        display: grid;
+        cursor: pointer;
+        justify-content: center;
+        top: 2rem;
+        right: 3rem;
+        align-items: center;
+        background:rgb(179, 146, 113);
+        width: 50px;
+        height: 40px;
+        border-radius: 20%;
+    }
+    .mobile-menu:hover{
+        background: #444;
+    }
+
+    .mobile-menu:hover div{
+        background:rgb(179, 146, 113)
+    }
+    
+    
+    .line1,
+    .line2,
+    .line3{
+        width: 32px;
+        height: 2px;
+        background: #444;
+        margin: 2px;
+    }
+
+}
+
+@media (max-width: 450px){
+    .button-container{
+        width: 100vw;
+    }
+}
